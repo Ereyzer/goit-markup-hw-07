@@ -1,0 +1,64 @@
+.social {
+    display: flex;
+    margin-top: 16px;
+    
+
+    &__link {
+        
+        display: block;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+            
+        padding:12px;
+            
+            
+        transition: color 250ms cubic-bezier($cubic-bezier),
+        background-color 250ms cubic-bezier($cubic-bezier);
+
+    }   
+
+    
+
+
+    &__link + &__link {
+        margin-left: 10px;
+    }
+
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        
+        fill: currentColor;
+
+    }
+}
+
+
+.social {
+
+    .social__link {
+
+        &:hover, 
+        &:focus {
+            background-color: $accent-color;
+            color: $primari-white-color;
+        }
+    }
+    
+}
+//перенести в команду
+.team__social {
+    justify-content: center;
+
+    .social__link {
+        color: #afb1b8;
+    }
+    
+}
+
+
+
+
+       
