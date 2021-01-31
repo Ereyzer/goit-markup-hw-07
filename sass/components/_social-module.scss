@@ -13,10 +13,19 @@
         padding:12px;
             
             
-        transition: color 250ms cubic-bezier($cubic-bezier),
-        background-color 250ms cubic-bezier($cubic-bezier);
+        transition: color $primari-trasition-duration cubic-bezier($cubic-bezier),
+        background-color $primari-trasition-duration cubic-bezier($cubic-bezier);
 
     }   
+
+    .social__link {
+
+        &:hover, 
+        &:focus {
+            background-color: $accent-color;
+            color: $primari-white-color;
+        }
+    }
 
     
 
@@ -36,27 +45,7 @@
 }
 
 
-.social {
 
-    .social__link {
-
-        &:hover, 
-        &:focus {
-            background-color: $accent-color;
-            color: $primari-white-color;
-        }
-    }
-    
-}
-//перенести в команду
-.team__social {
-    justify-content: center;
-
-    .social__link {
-        color: #afb1b8;
-    }
-    
-}
 
 
 

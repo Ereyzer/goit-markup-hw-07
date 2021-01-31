@@ -44,7 +44,7 @@ header {
 
         color: $title-text-color;
         
-        transition: color 250ms cubic-bezier($cubic-bezier);
+        transition: color $primari-trasition-duration cubic-bezier($cubic-bezier);
         
 
         &:hover,
@@ -79,7 +79,7 @@ header {
         border-radius: 2px;
         bottom: 0;
         opacity: 0;
-        transition: opacity 250ms cubic-bezier($cubic-bezier);
+        transition: opacity $primari-trasition-duration cubic-bezier($cubic-bezier);
         
     }
 
@@ -96,7 +96,7 @@ header {
     display: flex;
 
     &__link {
-        transition: color 250ms cubic-bezier($cubic-bezier);
+        transition: color $primari-trasition-duration cubic-bezier($cubic-bezier);
         
         display: flex;
         align-items: center;
