@@ -209,7 +209,7 @@
     background-color: $secondary-bg-color;
     
     &__title {
-
+        @extend %primary-title;
         margin-top: 0;
         margin-right: auto;
         margin-bottom: 50px;

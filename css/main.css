@@ -86,7 +86,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.speciality__title, .engage__title, .customer__title, .cards-list__title {
+.speciality__title, .engage__title, .team__title, .customer__title, .cards-list__title {
   font-weight: 700;
   font-size: 36px;
   color: #212121;
